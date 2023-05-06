@@ -1,3 +1,10 @@
+* {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body {
+  background-color: lightslategrey;
+}
 /* Header */
 header {
     display: flex;
@@ -6,6 +13,7 @@ header {
     background-color: #333;
     color: white;
     padding: 20px;
+    border: 2px solid black;
 }
   
 header h1 {
@@ -46,6 +54,48 @@ section {
     margin: 0 auto; /* center the section horizontally */
     padding: 40px; /* add some padding to the section */
   }
+  
+/* About me section */
+#about-me {
+  background-color: #333;
+  margin-top: 10px;
+  color: white;
+  padding-top: 1px;
+  border: 2px solid black;
+
+}
+
+#about-me h2 {
+  font-size: 2em;
+  padding-top: 20px;
+}
+
+
+
+#about-me .text-container p {
+  margin-right: 600px;
+  margin-top: 70px;
+}
+
+
+#about-me img {
+  height: 400px;
+  float: right;
+  margin-top: -400px;
+  margin-right: 30px;
+}
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+ 
   
   
   

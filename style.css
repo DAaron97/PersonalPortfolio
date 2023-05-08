@@ -85,7 +85,56 @@ section {
   margin-right: 30px;
 }
 
+/* Future Projects */
+#future-projects {
+  background-color: #333;
+  border: 2px solid black;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  text-align: center;
+  max-width: 700px;
+  color: white;
+}
 
+.project-1 {
+  border: 2px solid black;
+  margin: 0 40px;
+  background-color: cadetblue;
+  margin-bottom: 10px;
+  text-align: left;
+  padding-left: 10px;
+  height: 300px;
+}
+
+.project-2 {
+  border: 2px solid black;
+  margin: 0 40px;
+  background-color: cadetblue;
+  margin-bottom: 10px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.project-3 {
+  border: 2px solid black;
+  margin: 0 40px;
+  background-color: cadetblue;
+  margin-bottom: 10px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+#future-projects h3 {
+  text-align: center;
+}
+#future-projects p {
+  max-width: 40%;
+}
+
+#future-projects li {
+  max-width: 40%;
+}
 
 
 

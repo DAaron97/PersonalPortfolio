@@ -7,6 +7,7 @@
     <title>My Personal Portfolio</title>
     <!-- Add scripts here-->
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 
 </head>
 <body>
@@ -79,11 +80,12 @@
     <section id="skills">
         <h2>Skills</h2>
         <ul>
-            <li>Skill 1</li>
-            <li>Skill 2</li>
-            <li>Skill 3</li>
-            <li>Skill 4</li>
+            <li id="skill-1">HTML</li>
+            <li id="skill-2" style="display:none;">CSS</li>
+            <li id="skill-3" style="display:none;">Javascript</li>
+            <li id="skill-4" style="display:none;">Python</li>
         </ul>
+        <button onclick="showNextSkill()">Next</button>
     </section>
 </body>
 </html>

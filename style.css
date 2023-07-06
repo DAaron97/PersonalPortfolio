@@ -6,7 +6,13 @@ body {
   background-color: lightslategrey;
 }
 /* Header */
+
+
 header {
+    position: fixed;
+    top: 0px;
+    right: 10px;
+    left: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,15 +56,15 @@ nav a:hover {
 }
 
 section {
-    max-width: 1500px; /* set the maximum width of the section */
-    margin: 0 auto; /* center the section horizontally */
-    padding: 40px; /* add some padding to the section */
+  max-width: 1500px; /* set the maximum width of the section */
+  margin: 0 auto; /* center the section horizontally */
+  padding: 40px; /* add some padding to the section */
   }
   
 /* About me section */
 #about-me {
   background-color: #333;
-  margin-top: 10px;
+  margin-top: 110px;
   color: white;
   padding-top: 1px;
   border: 2px solid black;

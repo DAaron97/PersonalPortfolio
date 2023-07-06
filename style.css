@@ -50,7 +50,7 @@ nav a:hover {
 }
 
 section {
-    max-width: 1100px; /* set the maximum width of the section */
+    max-width: 1500px; /* set the maximum width of the section */
     margin: 0 auto; /* center the section horizontally */
     padding: 40px; /* add some padding to the section */
   }
@@ -62,12 +62,16 @@ section {
   color: white;
   padding-top: 1px;
   border: 2px solid black;
-
 }
 
-#about-me h2 {
+h2 {
   font-size: 2em;
   padding-top: 20px;
+  text-align: center;
+}
+
+#about-me p {
+  padding-left: 70px;
 }
 
 
@@ -81,11 +85,16 @@ section {
 #about-me img {
   height: 400px;
   float: right;
-  margin-top: -400px;
-  margin-right: 30px;
+  margin-top: -500px;
+  margin-right: 100px;
+  border: 2px solid black;
+  background-color: cadetblue;
+  margin-bottom: 10px;
 }
 
 /* Future Projects */
+
+
 #future-projects {
   background-color: #333;
   border: 2px solid black;
@@ -93,8 +102,15 @@ section {
   padding-top: 5px;
   padding-bottom: 10px;
   text-align: center;
-  max-width: 700px;
+  max-width: 1500px;
   color: white;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+
 }
 
 .project-1 {
@@ -102,9 +118,9 @@ section {
   margin: 0 40px;
   background-color: cadetblue;
   margin-bottom: 10px;
-  text-align: left;
-  padding-left: 10px;
-  height: 300px;
+  text-align: center;
+  height: 250px;
+  max-width: 300px;
 }
 
 .project-2 {
@@ -114,6 +130,8 @@ section {
   margin-bottom: 10px;
   text-align: left;
   padding-left: 10px;
+  height: 250px;
+  max-width: 300px;
 }
 
 .project-3 {
@@ -123,21 +141,53 @@ section {
   margin-bottom: 10px;
   text-align: left;
   padding-left: 10px;
+  height: 250px;
+  max-width: 300px;
 }
 
 #future-projects h3 {
   text-align: center;
 }
 #future-projects p {
-  max-width: 40%;
+  max-width: 100%;
 }
 
 #future-projects li {
   max-width: 40%;
+} 
+
+
+
+
+#skills {
+  background-color: #333;
+  border: 2px solid black;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  text-align: center;
+  max-width: 1500px;
+  color: white;
 }
 
-#skills ul {
+.code-skills {
+  border: 2px solid black;
+  margin: 0 40px;
+  background-color: cadetblue;
+  margin-bottom: 10px;
+  height: 250px;
+  max-width: 300px;
+}
+
+#skills li {
   list-style: none;
+  margin-right: 40px;
+  margin-top: 30px;
+}
+
+#skills img {
+  border: 2px solid black;
+  max-height: 90px;
 }
 
 

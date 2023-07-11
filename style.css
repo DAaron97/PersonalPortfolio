@@ -25,6 +25,7 @@ header {
 header h1 {
     font-size: 36px;
     margin: 0;
+    cursor: pointer;
 }
   
   /* Navigation */
@@ -72,7 +73,7 @@ section {
 
 h2 {
   font-size: 2em;
-  padding-top: 20px;
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -84,7 +85,7 @@ h2 {
 
 #about-me .text-container p {
   margin-right: 600px;
-  margin-top: 70px;
+  margin-top: 40px;
 }
 
 
@@ -99,8 +100,6 @@ h2 {
 }
 
 /* Future Projects */
-
-
 #future-projects {
   background-color: #333;
   border: 2px solid black;
@@ -181,20 +180,69 @@ h2 {
   margin: 0 40px;
   background-color: cadetblue;
   margin-bottom: 10px;
-  height: 250px;
-  max-width: 300px;
+  min-height: 240px;
+  max-height: 250px;
+  width: 350px;
 }
 
 #skills li {
   list-style: none;
   margin-right: 40px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 #skills img {
   border: 2px solid black;
   max-height: 90px;
+  max-width: 90px;
 }
+
+.node {
+  padding-top: 15px;
+}
+
+.react {
+  padding-top: 5px;
+}
+
+/* buttons */
+
+.prev {
+  border: 1.8px solid #333;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: rgba(0, 255, 255, 0.74);
+  color: #333;
+  font-size: 30px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 0px;
+  padding-bottom: 7px;
+  padding-right: 8px;
+  cursor: pointer;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.next {
+  border: 1.8px solid #333;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: rgba(0, 255, 255, 0.74);
+  color: #333;
+  font-size: 30px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 0px;
+  padding-bottom: 7px;
+  padding-left: 8px;
+  cursor: pointer;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
 
 
 

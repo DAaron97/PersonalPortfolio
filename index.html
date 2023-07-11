@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Portfolio</title>
-    <!-- Add scripts here-->
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 
@@ -79,17 +78,53 @@
     <!--Skills-->
     <section id="skills">
         <h2>Skills</h2>
-        <div class="code-skills">
-            <h3>Coding Languages</h3>
-            <ul>
-                <li id="skill-1"><img src="picture/html-logo.png" alt="html-logo"></li>
-                <li id="skill-2" style="display:none;"><img src="picture/css-logo.png" alt="css-logo"></li>
-                <li id="skill-3" style="display:none;"><img src="picture/js-logo.png" alt="js-logo"></li>
-                <li id="skill-4" style="display:none;"><img src="picture/py-logo.png" alt="python-logo"></li>
-                <li id="skill-5" style="display:none;"><img src="picture/node-logo.png" alt="node-logo"></li>
-                <li id="skill-6" style="display:none;"><img src="picture/react-logo.png" alt="react-logo"></li>
-            </ul>
-            <button onclick="showNextSkill()">Next</button>
+        <div class="container">
+            <div class="code-skills">
+                <h3>Coding Languages</h3>
+                <div class="container">
+                    <button class="button prev" onclick="showPrevSkill()">&lt;</button>
+                    <ul>
+                        <li id="skill-1"><img src="picture/html-logo.png" alt="html-logo"></li>
+                        <li id="skill-2" style="display:none;"><img src="picture/css-logo.png" alt="css-logo"></li>
+                        <li id="skill-3" style="display:none;"><img src="picture/js-logo.png" alt="js-logo"></li>
+                        <li id="skill-4" style="display:none;"><img src="picture/py-logo.png" alt="python-logo"></li>
+                        <li id="skill-5" class="node" style="display:none;"><img src="picture/node-logo.png" alt="node-logo"></li>
+                        <li id="skill-6" class="react" style="display:none;"><img src="picture/react-logo.png" alt="react-logo"></li>
+                    </ul>
+                    <button class="button next" onclick="showNextSkill()">&gt;</button>
+                </div>
+            </div>
+
+            <div class="code-skills">
+                <h3>Hard Skills</h3>
+                <div class="container">
+                    <button class="button prev" onclick="showPrevHard()">&lt;</button>
+                    <ul>
+                        <li id="hard-1"><p>Knowledge of frameworks</p></li>
+                        <li id="hard-2" style="display:none;"><p>Proficient with Github</p></li>
+                        <li id="hard-3" style="display:none;"><p>Project Management</p></li>
+                        <li id="hard-4" style="display:none;"><p>Problem Solving</p></li>
+                        <li id="hard-5" style="display:none;"><p>Customer Service</p></li>
+                    </ul>
+                    <button class="button next" onclick="showNextHard()">&gt;</button>
+                </div>
+            </div>
+
+            <div class="code-skills">
+                <h3>Soft Skills</h3>
+                <div class="container">
+                    <button class="button prev" onclick="">&lt;</button>
+                    <ul>
+                        <li id=""></li>
+                        <li id="" style="display:none;"></li>
+                        <li id="" style="display:none;"></li>
+                        <li id="" style="display:none;"></li>
+                        <li id="" style="display:none;"></li>
+                        <li id="" style="display:none;"></li>
+                    </ul>
+                    <button class="button next" onclick="">&gt;</button>
+                </div>
+            </div>
         </div>
     </section>
 </body>
